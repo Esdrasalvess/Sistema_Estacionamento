@@ -1,13 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-namespace SistemaEstacionamento;
+﻿namespace SistemaEstacionamento;
 
 using SistemaEstacionamento.Models;
 internal class Program
 {
     public static void Main(string[] args)
     {
-        // Coloca o encoding para UTF8 para exibir acentuação
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
         decimal precoInicial = 0;
@@ -19,16 +16,13 @@ internal class Program
 
         Console.WriteLine("Agora digite o preço por hora:");
         precoPorHora = Convert.ToDecimal(Console.ReadLine());
-
-// Instancia a classe Estacionamento, já com os valores obtidos anteriormente
+        
         Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 
         string opcao = string.Empty;
         bool exibirMenu = true;
-
         
         
-        //Realiza o loop do menu
         while (exibirMenu)
         {
             Console.Clear();
