@@ -1,11 +1,11 @@
 namespace SistemaEstacionamento.Models;
 
 public class Estacionamento
-{
-            private decimal precoInicial = 0;
+{ 
+        private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
-
+        List<string> placas = new List<string>(); 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
             this.precoInicial = precoInicial;
@@ -14,9 +14,9 @@ public class Estacionamento
 
         public void AdicionarVeiculo()
         {
-            // TODO: Pedir para o usuário digitar uma placa (ReadLine) e adicionar na lista "veiculos"
-            // *IMPLEMENTE AQUI*
             Console.WriteLine("Digite a placa do veículo para estacionar:");
+            string temp = Console.ReadLine();
+            veiculos.Add(temp);
         }
 
         public void RemoverVeiculo()
@@ -51,12 +51,13 @@ public class Estacionamento
 
         public void ListarVeiculos()
         {
-            // Verifica se há veículos no estacionamento
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
-                // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                // *IMPLEMENTE AQUI*
+                for (int i = 0; i < veiculos.Count; i++)
+                {
+                    Console.WriteLine("Veículo n°" + i + " -> "+veiculos[i]);
+                }
             }
             else
             {

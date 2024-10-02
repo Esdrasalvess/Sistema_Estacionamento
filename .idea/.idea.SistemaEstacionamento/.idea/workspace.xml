@@ -8,37 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5e1507-f014-42bb-b0eb-09a363d39e6f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/Models/Estacionamento.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/SistemaEstacionamento.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/SistemaEstacionamento.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/SistemaEstacionamento.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/SistemaEstacionamento.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/SistemaEstacionamento.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/SistemaEstacionamento.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/Debug/net6.0/SistemaEstacionamento.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/SistemaEstacionamento.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/SistemaEstacionamento.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/SistemaEstacionamento.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SistemaEstacionamento/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SistemaEstacionamento/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaEstacionamento/Models/Estacionamento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaEstacionamento/Models/Estacionamento.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mr7lrYLJwpzdC4ozRt8EsxYhQN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.SistemaEstacionamento.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -85,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727822994533</updated>
       <workItem from="1727822995931" duration="1314000" />
+      <workItem from="1727872936597" duration="21000" />
+      <workItem from="1727894609300" duration="875000" />
     </task>
     <servers />
   </component>
