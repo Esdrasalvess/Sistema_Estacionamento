@@ -1,1 +1,1 @@
-#Sistema_Estacionamento
+Neste desafio, foi desenvolvido um sistema de gerenciamento de estacionamento utilizando conhecimentos da trilha .NET. O sistema permite adicionar veículos, removê-los com cálculo do valor total a ser pago com base no tempo de permanência, e listar os veículos estacionados. A solução envolve a criação de uma classe "Estacionamento" com variáveis e métodos específicos para essas operações, além de um menu interativo que facilita a interação do usuário com o sistema.
